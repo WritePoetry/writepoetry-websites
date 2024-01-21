@@ -1,0 +1,12 @@
+{
+  "files": {
+    "scripts": [
+      {
+        "handle" : "main-script",
+        "src" : "/assets/js/main.js",
+        "deps" : [],
+        "in_footer" : ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70)">	
+	<!-- wp:pattern {"slug":"writepoetrywebsite/hero-logo"} /-->
+
+
+	<!-- wp:heading {"textAlign":"center","level":2,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} -->
+	<h2 class="alignwide has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--60)">The Swiss Knife for WordPress.</h2>
+	<!-- /wp:heading -->
+	
+	
+	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+	<div class="wp-block-buttons">
+		<!-- wp:button -->
+		<div class="wp-block-button">
+			<a class="wp-block-button__link wp-element-button" href="https://github.com/giacomo-secchi/write-poetry/releases/latest">Get WritePoetry Plugin ➜</a>
+		</div>
+		<!-- /wp:button -->
+	</div>
+	<!-- /wp:buttons -->
+	
+	<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#361C1C","openInNewTab":true,"showLabels":true,"size":"has-normal-icon-size","className":"is-style-logos-only"} -->
+	<ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://github.com/giacomo-secchi/write-poetry","service":"github","label":"GitHub Repository","rel":""} /--></ul>
+	<!-- /wp:social-links -->
+
+	<!-- wp:html -->
+	<div data-repo="'https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest">
+		Current version:
+		<span class="repo-version" id="repo-version"></span>
+	</div>
+	<!-- /wp:html -->
+	
+	<!-- wp:spacer {"height":"var(--wp--preset--spacing--60)"} -->
+	<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+
+ </main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
