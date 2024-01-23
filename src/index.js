@@ -1,12 +1,14 @@
 
 import domReady from '@wordpress/dom-ready';
 
-domReady(  () => {
+
+const initialize = () => {
 	'use strict';
 	
     let repoElement = document.querySelector( '#current-version' );
     
     if ( ! repoElement ) {
+		console.error( 'Repo element not found' );
         return;
     }
     
@@ -16,18 +18,22 @@ domReady(  () => {
 	// Get the github repo latest release version from GitHub
 	fetch( repo )
 		.then( ( response ) => response.json() )
-		.then( ( data ) => {
-			const version = data.tag_name;
-			const url = data.html_url;
+		.then( ( { tag_name, html_url } ) => {
+			 
 			const element = document.querySelector( '#repo-version' );
 			
 			if ( ! element ) {
+				console.error( 'Version element not found' );
 				return;
 			}
 
-			element.textContent = version;
-      		element.href = url;
+			element.textContent = tag_name;
+      		element.href = html_url;
 		} )
 		.catch( ( error ) => console.error( error ) );
+};
 
-} );
+if ( typeof window !== 'undefined' ) {
+	domReady( initialize );
+}
+
