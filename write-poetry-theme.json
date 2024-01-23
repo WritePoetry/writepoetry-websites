@@ -3,8 +3,8 @@
     "scripts": [
       {
         "handle" : "main-script",
-        "src" : "/assets/js/main.js",
-        "deps" : [],
+        "src" : "/build/index.js",
+        "deps" : ["wp-dom-ready"],
         "in_footer" : ""
       }
     ]
