@@ -1,0 +1,35 @@
+.logo {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    display: inline-flex;
+    border-right: 6px solid var( --wp--preset--color--primary ); /* The typwriter cursor */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    width: 0;
+    animation:  typing 1.8s steps( 20, end ) 1s, blink-caret .75s step-end infinite;
+    animation-fill-mode: forwards;
+    font-size: var(--wp--preset--font-size--x-large);
+    padding: .2em 0;
+    font-size: 65px;
+    line-height: 100%;
+    max-width: 440px !important;
+}
+
+.beta {
+    color: var( --wp--preset--color--secondary );
+    font-size: var(--wp--preset--font-size--large);
+    font-weight: 500; 
+    vertical-align: top; 
+    display: inline-flex;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: var( --wp--preset--color--primary ); }
+}

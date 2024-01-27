@@ -7,6 +7,13 @@
         "deps" : ["wp-dom-ready"],
         "in_footer" : ""
       }
+    ],
+    "styles": [
+      {
+        "handle" : "style-index",
+        "src" : "/build/style-index.css",
+        "deps" : []
+      }
     ]
   }
 }

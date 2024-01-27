@@ -18,6 +18,11 @@
 					"color": "#FA6900",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				{
+					"color": "#473BF0",
+					"name": "Secondary",
+					"slug": "secondary"
 				}
 			]
 		},
