@@ -16,10 +16,9 @@
 .beta {
     color: var( --wp--preset--color--secondary );
     font-size: var(--wp--preset--font-size--large);
-    font-weight: 500; 
-    vertical-align: top; 
-    display: inline-flex;
-
+    font-weight: 500;
+    align-self: flex-start;
+	display: inline-flex;
 }
 
 /* The typing effect */
