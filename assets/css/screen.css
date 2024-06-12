@@ -43,6 +43,15 @@ input.sib-NAME-area {
     height: 4rem;
 }
 
+input.sib-email-area,
+input.sib-NAME-area,
+input.sib-email-area::placeholder,
+input.sib-NAME-area::placeholder {
+	font-family: var(--wp--preset--font-family--source-code-pro);
+	font-size: var(--wp--preset--font-size--large);
+	color: var(--wp--preset--color--base);
+}
+
 .sib-default-btn {
 	background-color: var(--wp--preset--color--primary);
     border-radius: 50px;
@@ -57,13 +66,3 @@ input.sib-NAME-area {
     width: 100%;
     margin-top: var(--wp--preset--spacing--60);
 }
-
-
-input.sib-email-area::placeholder ,
-input.sib-NAME-area::placeholder {
-	font-family: var(--wp--preset--font-family--source-code-pro);
-	font-size: var(--wp--preset--font-size--large);
-	color: var(--wp--preset--color--base);
-  }
-
-
