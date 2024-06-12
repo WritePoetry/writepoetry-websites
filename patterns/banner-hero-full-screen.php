@@ -50,12 +50,18 @@
 <ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://github.com/giacomo-secchi/write-poetry","service":"github","label":"GitHub Repository","rel":""} /--></ul>
 <!-- /wp:social-links -->
 
-<!-- wp:html -->
-<div class="current-version" id="current-version" style="text-align: center;" data-repo="https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest">
-		Current version:
-		<a class="repo-version" id="repo-version"></a>
-	</div>
-<!-- /wp:html -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group">
+	<!-- wp:paragraph -->
+	<p>Current version:</p>
+	<!-- /wp:paragraph -->
+
+	<!-- wp:html -->
+	<div class="api-fetch" data-api-url="https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest" data-api-link="html_url" data-api-text="tag_name"></div>
+	<!-- /wp:html -->
+</div>
+<!-- /wp:group -->
+
 
 
 </main>
