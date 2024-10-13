@@ -18,7 +18,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Recommended Plugins ==
 
 Write Poetry
-https://github.com/giacomo-secchi/write-poetry
+https://github.com/WritePoetry/wordpress-plugin
 
 == Copyright ==
 
