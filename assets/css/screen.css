@@ -66,3 +66,9 @@ input.sib-NAME-area::placeholder {
     width: 100%;
     margin-top: var(--wp--preset--spacing--60);
 }
+
+
+.home .wp-block-social-links,
+.home .logo-wrapper {
+        margin-top: auto;
+}

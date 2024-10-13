@@ -9,8 +9,8 @@
 <!-- wp:group {"tagName":"main","style":{"dimensions":{"minHeight":"100vh"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center","flexWrap":"nowrap"}} -->
 <main class="wp-block-group" style="min-height:100vh;">
 
-<!-- wp:group {"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:html -->
+<!-- wp:group {"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"},"className":"logo-wrapper"} -->
+<div class="wp-block-group logo-wrapper"><!-- wp:html -->
 <h1 class="logo">
 			<span style="font-weight: 200;">W</span>
 			<span style="font-weight: 300;">r</span>
@@ -42,7 +42,7 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group has-small-font-size" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph -->
-<p>Current version:&nbsp;</p>
+<p>Current version:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:write-poetry/api-fetcher {"url":" https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest","text":"tag_name","link":"html_url"} -->
@@ -63,14 +63,9 @@
 
 
 
-<!-- wp:spacer {"height":"0px","style":{"layout":{"flexSize":"100px","selfStretch":"fixed"}}} -->
-<div style="height:0px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:social-links {"iconColor":"contrast","openInNewTab":true,"showLabels":false,"size":"has-normal-icon-size","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
-<ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"WritePoetry GitHub organization account","rel":""} /--></ul>
+<!-- wp:social-links {"iconColor":"contrast","openInNewTab":true,"size":"has-normal-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"WritePoetry GitHub organization account","rel":""} /--></ul>
 <!-- /wp:social-links -->
-
 
 
 
