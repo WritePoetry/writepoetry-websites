@@ -40,10 +40,8 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-
-
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<div class="wp-block-group has-small-font-size" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph -->
 <p>Current version:&nbsp;</p>
 <!-- /wp:paragraph -->
 
