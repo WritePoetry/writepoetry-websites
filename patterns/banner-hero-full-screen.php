@@ -12,7 +12,7 @@
 <!-- wp:pattern {"slug":"writepoetry-website/logo-writepoetry"} /-->
 
 <!-- wp:heading {"textAlign":"center","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"fontSize":"xx-large"} -->
-<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70);">The Swiss Knife for WordPress Developers.</h2>
+<h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70);">The Swiss Knife<br>for WordPress Developers.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
