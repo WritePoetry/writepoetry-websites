@@ -1,51 +1,256 @@
 {
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
-	"styles": {
-		"spacing": {
-			"padding": {
-				"bottom": "0px"
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "#EEEEEE",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#361C1C",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "#FA6900",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#473BF0",
+                    "name": "Secondary",
+                    "slug": "secondary"
+                }
+            ]
+        },
+		"custom": {
+			"coreMediaText": {
+				"borderRadius": "8px"
 			}
 		},
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--source-code-pro)",
-			"fontSize": "var(--wp--preset--font-size--medium)",
-			"lineHeight": "1.6"
-		},
-		"elements": {
-			"button": {
-				"border": {
-					"radius": "50px"
+        "typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Source Code Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/source-code-pro/source-code-pro-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Source Code Pro\", monospace",
+					"name": "Source Code Pro",
+					"slug": "source-code-pro"
 				},
-				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--base)"
-				},
-				":hover": {
-					"color": {
-						"background": "var(--wp--preset--color--black)",
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
-				":focus": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
-				":active": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
-				":visited": {
-					"color": {
-						"text": "var(--wp--preset--color--base)"
-					}
-				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Open Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/open-sans/open-sans-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"name": "Open Sans",
+					"slug": "open-sans"
+				}
+			]
+        }
+    },
+    "styles": {
+        "spacing": {
+            "padding": {
+                "bottom": "0px"
+            }
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|open-sans",
+            "fontSize": "vvar:preset|font-size|medium",
+            "lineHeight": "1.6"
+        },
+        "elements": {
+            "button": {
+                "border": {
+                    "radius": "50px"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--primary)",
+                    "text": "var(--wp--preset--color--base)"
+                },
+                ":hover": {
+                    "color": {
+                        "background": "var(--wp--preset--color--black)",
+                        "text": "var(--wp--preset--color--base)"
+                    }
+                },
+                ":focus": {
+                    "color": {
+                        "text": "var(--wp--preset--color--base)"
+                    }
+                },
+                ":active": {
+                    "color": {
+                        "text": "var(--wp--preset--color--base)"
+                    }
+                },
+                ":visited": {
+                    "color": {
+                        "text": "var(--wp--preset--color--base)"
+                    }
+                },
+                "typography": {
+                    "fontFamily": "var:preset|font-family|source-code-pro",
+                    "fontWeight": "400"
+                }
+            },
+			"h3": {
 				"typography": {
-					"fontWeight": "700"
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
+            "heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|source-code-pro",
+					"lineHeight": "1.6"
 				}
 			}
-		}
-	}
+        }
+    }
 }

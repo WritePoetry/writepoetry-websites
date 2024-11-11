@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Centered call to action
- * Slug: write-white/brevo-cta-subscribe
+ * Slug: writepoetry-website/cta-brevo-subscribe
  * Categories: call-to-action
  * Keywords: newsletter, subscribe, button
  */
@@ -9,8 +9,8 @@
 <!-- wp:group {"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-contrast-background-color has-background">
 
-	<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"x-large"} -->
-	<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color has-x-large-font-size">Keep up with the WritePoetry Development newsletter</h2>
+	<!-- wp:heading {"textAlign":"center","level":3,"textColor":"base"} -->
+	<h3 class="wp-block-heading has-text-align-center has-base-color has-text-color">Keep up with the WritePoetry Development newsletter</h3>
 	<!-- /wp:heading -->
 
 	<!-- wp:html -->

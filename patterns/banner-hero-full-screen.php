@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hero
- * Slug: write-white/banner-hero-full-screen
+ * Slug: writepoetry-website/banner-hero-full-screen
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
  */
@@ -9,24 +9,7 @@
 <!-- wp:group {"tagName":"main","style":{"dimensions":{"minHeight":"100vh"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","verticalAlignment":"center","flexWrap":"nowrap"}} -->
 <main class="wp-block-group" style="min-height:100vh;">
 
-<!-- wp:group {"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"},"className":"logo-wrapper"} -->
-<div class="wp-block-group logo-wrapper"><!-- wp:html -->
-<h1 class="logo">
-			<span style="font-weight: 200;">W</span>
-			<span style="font-weight: 300;">r</span>
-			<span style="font-weight: 400;">it</span>
-			<span style="font-weight: 500;">e</span>
-			<span style="font-weight: 900;">P</span>
-			<span style="font-weight: 900;">o</span>
-			<span style="font-weight: 700;">et</span>
-			<span style="font-weight: 500;">r</span>
-			<span style="font-weight: 300;">y</span>
-			<span style="font-weight: 300;">&nbsp;</span>
-		</h1>
-
-		<span class="beta">Beta</span>
-<!-- /wp:html --></div>
-<!-- /wp:group -->
+<!-- wp:pattern {"slug":"writepoetry-website/logo-writepoetry"} /-->
 
 <!-- wp:heading {"textAlign":"center","align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|70"}}},"fontSize":"xx-large"} -->
 <h2 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--70);">The Swiss Knife for WordPress.</h2>
@@ -36,7 +19,7 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-right:0;padding-left:0"><!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons alignwide"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/WritePoetry/wordpress-plugin/releases/latest" target="_blank" rel=" noreferrer noopener nofollow">Get WritePoetry Plugin ➜</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/WritePoetry/wordpress-plugin/releases/latest" target="_blank" rel=" noreferrer noopener nofollow">Get WritePoetry Plugin -></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -45,8 +28,8 @@
 <p>Current version:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:write-poetry/api-fetcher {"url":" https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest","text":"tag_name","link":"html_url"} -->
-<span data-url=" https://api.github.com/repos/giacomo-secchi/write-poetry/releases/latest" data-link="html_url" data-text="tag_name" class="wp-block-write-poetry-api-fetcher">Fetching data…</span>
+<!-- wp:write-poetry/api-fetcher {"url":" https://api.github.com/repos/WritePoetry/wordpress-plugin/releases/latest","text":"tag_name","link":"html_url"} -->
+<span data-url=" https://api.github.com/repos/WritePoetry/wordpress-plugin/releases/latest" data-link="html_url" data-text="tag_name" class="wp-block-write-poetry-api-fetcher">Fetching data…</span>
 <!-- /wp:write-poetry/api-fetcher --></div>
 <!-- /wp:group -->
  
