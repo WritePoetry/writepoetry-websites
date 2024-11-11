@@ -202,7 +202,7 @@
         },
         "typography": {
             "fontFamily": "var:preset|font-family|open-sans",
-            "fontSize": "vvar:preset|font-size|medium",
+            "fontSize": "var:preset|font-size|medium",
             "lineHeight": "1.6"
         },
         "elements": {
