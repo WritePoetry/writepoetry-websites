@@ -82,12 +82,12 @@ input.sib-NAME-area::placeholder {
     border-radius: 50px;
     border-width: 0;
     color: var(--wp--preset--color--base);
-    font-family: inherit;
+    font-family: var(--wp--preset--font-family--source-code-pro);
     font-size: inherit;
-    font-weight: 700;
     line-height: inherit;
     padding: calc(0.667em + 2px) calc(1.333em + 2px);
     text-decoration: none;
     width: 100%;
     margin-top: var(--wp--preset--spacing--60);
+    text-transform: uppercase;
 }
