@@ -31,6 +31,9 @@
 				"borderRadius": "8px"
 			}
 		},
+		"layout": {
+			"contentSize": "800px"
+		},
         "typography": {
 			"fontFamilies": [
 				{
@@ -202,7 +205,6 @@
         },
         "typography": {
             "fontFamily": "var:preset|font-family|open-sans",
-            "fontSize": "var:preset|font-size|medium",
             "lineHeight": "1.6"
         },
         "elements": {
@@ -237,7 +239,8 @@
                 },
                 "typography": {
                     "fontFamily": "var:preset|font-family|source-code-pro",
-                    "fontWeight": "400"
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "400"
                 }
             },
 			"h3": {
