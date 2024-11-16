@@ -47,7 +47,10 @@
 
 
 <!-- wp:social-links {"iconColor":"contrast","openInNewTab":true,"size":"has-normal-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-<ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-bottom:var(--wp--preset--spacing--50)"><!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"WritePoetry GitHub organization account","rel":""} /--></ul>
+<ul class="wp-block-social-links has-normal-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-bottom:var(--wp--preset--spacing--50)">
+    <!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"WritePoetry GitHub organization account","rel":""} /-->
+    <!-- wp:social-link {"url":"https://www.youtube.com/@WritePoetrywithWordPress","service":"youtube","label":"WritePoetry YouTube Channel"} /-->
+</ul>
 <!-- /wp:social-links -->
 
 
