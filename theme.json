@@ -248,6 +248,12 @@
 					"fontSize": "var:preset|font-size|large"
 				}
 			},
+			"h4": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "600"
+				}
+			},
             "heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|source-code-pro",

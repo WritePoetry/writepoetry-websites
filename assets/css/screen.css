@@ -51,12 +51,6 @@
 	display: inline-flex;
 }
 
-.home .wp-block-social-links,
-.home .logo-wrapper {
-    margin-top: auto;
-}
-
-
 
 input.sib-email-area,
 input.sib-NAME-area {
@@ -90,4 +84,15 @@ input.sib-NAME-area::placeholder {
     width: 100%;
     margin-top: var(--wp--preset--spacing--60);
     text-transform: uppercase;
+}
+
+
+.home .banner-2 .wp-block-social-link-anchor {
+    width: 100%;
+    padding: var(--wp--preset--spacing--60);
+}
+
+.home .banner-2 .wp-block-social-links {
+    width: 100%;
+    background: radial-gradient(black, transparent);
 }
