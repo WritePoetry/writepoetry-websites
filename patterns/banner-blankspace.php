@@ -8,8 +8,9 @@
  */
 ?>
 
-
- 
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|90","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--90);margin-bottom:var(--wp--preset--spacing--80)"><!-- wp:site-logo {"width":30,"align":"center"} /--></div>
+<!-- /wp:group -->
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
    <!-- wp:media-text {"align":"wide","mediaId":1, "mediaLink":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/blankspace-demo-screenshot.png","mediaType":"image","className":"is-style-rounded-image"} -->

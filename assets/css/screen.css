@@ -2,11 +2,11 @@
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     display: inline-flex;
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    font-size: var(--wp--preset--font-size--x-large);
+    font-size: clamp( 1rem, 10vw, 65px );
     padding: .2em 0;
-    font-size: 65px;
     line-height: 100%;
     max-width: 440px !important;
+    
 }
 
 .underscore-cursor::before {
@@ -88,11 +88,15 @@ input.sib-NAME-area::placeholder {
 
 
 .home .banner-2 .wp-block-social-link-anchor {
-    width: 100%;
-    padding: var(--wp--preset--spacing--60);
+    padding: var(--wp--preset--spacing--50);
 }
 
 .home .banner-2 .wp-block-social-links {
-    width: 100%;
     background: radial-gradient(black, transparent);
+    width: 100%;
+}
+
+
+.home .banner-2 .wp-block-social-link-label {
+    line-height: 100%;
 }
