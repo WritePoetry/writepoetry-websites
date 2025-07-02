@@ -14,7 +14,7 @@
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
    <!-- wp:media-text {"align":"wide","mediaId":1, "mediaLink":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/blankspace-demo-screenshot.png","mediaType":"image","className":"is-style-rounded-image"} -->
-<div class="wp-block-media-text alignwide is-stacked-on-mobile is-style-rounded-image">
+<div class="wp-block-media-text alignwide is-stacked-on-mobile is-style-rounded-image" id="blankspace">
    <figure class="wp-block-media-text__media">
       <img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/blankspace-demo-screenshot.png" alt="" class="wp-image-1 size-full" />
    </figure>

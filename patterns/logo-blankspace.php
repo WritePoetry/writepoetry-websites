@@ -7,7 +7,7 @@
 ?>
  
 <!-- wp:group {"layout":{"type":"flex","justifyContent":"left","flexWrap":"nowrap"},"className":"logo-wrapper"} -->
-<div class="wp-block-group logo-wrapper" id="blankspace"><!-- wp:html -->
+<div class="wp-block-group logo-wrapper"><!-- wp:html -->
 <h2 class="logo underscore-cursor">
 	<span style="font-weight: 900;">B</span>
 	<span style="font-weight: 700;">la</span>
