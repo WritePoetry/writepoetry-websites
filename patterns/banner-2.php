@@ -36,21 +36,15 @@ This is a WIP so a feedback on how to improve the tool would be highly appreciat
  
   
 
-<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/yancy-min-842ofHC6MaI-unsplash.jpg","source":"file","title":"yancy-min-842ofHC6MaI-unsplash"},"backgroundSize":"cover"},"border":{"radius":"4px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-<div class="wp-block-group" style="border-radius:4px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-    
-<!-- wp:social-links {"iconColor":"base","openInNewTab":true,"showLabels":true,"size":"has-large-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"0","top":"0","left":"0","right":"0"},"blockGap":{"top":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap","orientation":"horizontal"}} -->
-<ul class="wp-block-social-links has-large-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">
-    <!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"GitHub Organization","rel":""} /-->
-    </ul>
-<!-- /wp:social-links -->
+<!-- wp:group {"style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
+<div class="wp-block-group" style="border-radius:4px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">  
+    <!-- wp:social-links {"iconColor":"base","openInNewTab":true,"showLabels":true,"size":"has-large-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"0","top":"0","left":"0","right":"0"},"blockGap":{"top":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap","orientation":"horizontal"}} -->
+    <ul class="wp-block-social-links has-large-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">
+        <!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"GitHub Organization","rel":""} /-->
+        <!-- wp:social-link {"url":"https://www.youtube.com/@WritePoetrywithWordPress","service":"youtube","label":"YouTube Channel"} /-->
+        </ul>
+    <!-- /wp:social-links -->
 </div>
-<!-- /wp:group -->
-
-<!-- wp:group {"style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/youtube-background.png","source":"file","title":"yancy-min-842ofHC6MaI-unsplash"},"backgroundSize":"cover"},"border":{"radius":"4px"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-<div class="wp-block-group" style="border-radius:4px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:social-links {"iconColor":"base","openInNewTab":true,"showLabels":true,"size":"has-large-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"0","top":"0","left":"0","right":"0"},"blockGap":{"top":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap","orientation":"horizontal"}} -->
-<ul class="wp-block-social-links has-large-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><!-- wp:social-link {"url":"https://www.youtube.com/@WritePoetrywithWordPress","service":"youtube","label":"YouTube Channel"} /--></ul>
-<!-- /wp:social-links --></div>
 <!-- /wp:group -->
 
 

@@ -86,17 +86,26 @@ input.sib-NAME-area::placeholder {
     text-transform: uppercase;
 }
 
-
-.home .banner-2 .wp-block-social-link-anchor {
-    padding: var(--wp--preset--spacing--50);
-}
-
-.home .banner-2 .wp-block-social-links {
+.banner-2 .wp-block-social-link-anchor {
     background: radial-gradient(black, transparent);
-    width: 100%;
+    padding: var(--wp--preset--spacing--50);
+    justify-content: center;
 }
 
+.banner-2 .wp-block-social-link {
+    width: 100%;
+    border-radius: 4px;
+    background-size: cover;
+}
 
-.home .banner-2 .wp-block-social-link-label {
-    line-height: 100%;
+.banner-2 .wp-block-social-link + .wp-block-social-link {    
+    margin-top: var(--wp--preset--spacing--50);
+}
+
+.banner-2 .wp-social-link-github {
+    background-image: var(--wp--custom--banner-images--github);
+}
+
+.banner-2 .wp-social-link-youtube {
+    background-image: var(--wp--custom--banner-images--youtube);
 }
