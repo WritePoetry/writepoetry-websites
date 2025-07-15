@@ -42,9 +42,9 @@
             <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-group alignwide" style="padding-right:0;padding-left:0">
                <!-- wp:buttons -->
-               <div class="wp-block-buttons">
+               <div class="wp-block-buttons">  
                   <!-- wp:button -->
-                  <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://write-poetry.com/blankspace-demo">View BlankSpace theme demo -></a></div>
+                  <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://write-poetry.com/blankspace-demo" target="_blank" rel="noreferrer noopener">View BlankSpace theme demo -&gt;</a></div>
                   <!-- /wp:button -->
                </div>
                <!-- /wp:buttons -->
