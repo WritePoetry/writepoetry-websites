@@ -20,7 +20,7 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-right:0;padding-left:0"><!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons alignwide"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/WritePoetry/wordpress-plugin/releases/latest" target="_blank" rel=" noreferrer noopener nofollow">Get WritePoetry Plugin -&gt;</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/WritePoetry/writepoetry-plugin/releases/latest" target="_blank" rel=" noreferrer noopener nofollow">Get WritePoetry Plugin -&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -29,8 +29,8 @@
 <p>Current version:</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:write-poetry/api-fetcher {"url":"https://api.github.com/repos/WritePoetry/wordpress-plugin/releases/latest","text":"tag_name","link":"html_url"} -->
-<span data-url="https://api.github.com/repos/WritePoetry/wordpress-plugin/releases/latest" data-link="html_url" data-text="tag_name" class="wp-block-write-poetry-api-fetcher">Fetching data…</span>
+<!-- wp:write-poetry/api-fetcher {"url":"https://api.github.com/repos/WritePoetry/writepoetry-plugin/releases/latest","text":"tag_name","link":"html_url"} -->
+<span data-url="https://api.github.com/repos/WritePoetry/writepoetry-plugin/releases/latest" data-link="html_url" data-text="tag_name" class="wp-block-write-poetry-api-fetcher">Fetching data…</span>
 <!-- /wp:write-poetry/api-fetcher --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -39,7 +39,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-right:0;padding-left:0"><!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons alignwide"><!-- wp:button {"backgroundColor":"contrast","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-background-color has-background wp-element-button" href="https://github.com/WritePoetry/wordpress-plugin/blob/trunk/CONTRIBUTING.md" target="_blank" rel=" noreferrer noopener nofollow">CONTRIBUTE to WritePoetry &lt;/&gt;</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-contrast-background-color has-background wp-element-button" href="https://github.com/WritePoetry/writepoetry-plugin/blob/trunk/CONTRIBUTING.md" target="_blank" rel=" noreferrer noopener nofollow">CONTRIBUTE to WritePoetry &lt;/&gt;</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

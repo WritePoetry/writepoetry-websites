@@ -40,7 +40,7 @@ This is a WIP so a feedback on how to improve the tool would be highly appreciat
 <div class="wp-block-group" style="border-radius:4px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">  
     <!-- wp:social-links {"iconColor":"base","openInNewTab":true,"showLabels":true,"size":"has-large-icon-size","className":"has-visible-labels has-icon-color is-style-logos-only","style":{"spacing":{"margin":{"bottom":"0","top":"0","left":"0","right":"0"},"blockGap":{"top":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap","orientation":"horizontal"}} -->
     <ul class="wp-block-social-links has-large-icon-size has-visible-labels has-icon-color is-style-logos-only" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">
-        <!-- wp:social-link {"url":"https://github.com/WritePoetry/wordpress-plugin","service":"github","label":"GitHub Organization","rel":""} /-->
+        <!-- wp:social-link {"url":"https://github.com/WritePoetry/writepoetry-plugin","service":"github","label":"GitHub Organization","rel":""} /-->
         <!-- wp:social-link {"url":"https://www.youtube.com/@WritePoetrywithWordPress","service":"youtube","label":"YouTube Channel"} /-->
         </ul>
     <!-- /wp:social-links -->
