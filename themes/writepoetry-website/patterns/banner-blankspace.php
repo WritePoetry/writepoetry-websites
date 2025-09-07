@@ -30,7 +30,7 @@
       <!-- /wp:paragraph -->
  
       <!-- wp:paragraph -->
-      <p>Built to integrate smoothly with the Write Poetry plugin, this theme provides an intuitive environment for rapid bootstrapping and customization.</p>
+      <p>Built to integrate smoothly with the WritePoetry plugin, this theme provides an intuitive environment for rapid bootstrapping and customization.</p>
       <!-- /wp:paragraph -->     
       
       <!-- wp:paragraph -->
