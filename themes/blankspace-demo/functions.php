@@ -1,7 +1,16 @@
 <?php
+/**
+ * Functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package Blankspace_Demo
+ */
+
+
 
 /**
- * Adds a "404" menu item under the "Templates" submenu in the main navigation.
+ * Adds a "404" menu item under the "Templates" submenu in the main navigation and remove homepage menu link.
  * 
  */
 add_filter( 'render_block_core/navigation', function ( $block_content, $block ) {
@@ -14,6 +23,7 @@ add_filter( 'render_block_core/navigation', function ( $block_content, $block ) 
         return $block_content;
     }
 
+
     // Initialize DOMDocument and DOMXPath.
     $doc = new DOMDocument();
 
@@ -21,6 +31,17 @@ add_filter( 'render_block_core/navigation', function ( $block_content, $block ) 
     libxml_use_internal_errors( true );
     @$doc->loadHTML('<?xml encoding="utf-8" ?>' . $block_content );
     $xpath = new DOMXPath( $doc );
+
+
+
+    $home_items = $xpath->query( "//li[contains(@class, 'menu-item-home')]" );
+
+    // Remove existing "Home" menu items.
+    foreach ( $home_items as $item ) {
+        $item->parentNode->removeChild( $item );
+    }
+
+
 
     // Find the "Templates" menu item.
     $templates_item = $xpath->query( "//li[contains(@class, 'wp-block-navigation-item')]//a[normalize-space(text())='Templates']/ancestor::li[1]")->item( 0 );
@@ -52,3 +73,7 @@ add_filter( 'render_block_core/navigation', function ( $block_content, $block ) 
 
     return $block_content;
 }, 10, 2 );
+
+ 
+
+ 
